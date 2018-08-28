@@ -1,7 +1,105 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    html, body {
+        margin:0;
+        padding:0;
+    }
+
+    #welcome_tile {
+        display: block;
+        padding-left: 20px;
+        width: 100%;
+        height:200px;
+        background-color: lightgray;
+    }
+
+    h3 {
+        font-family: cursive;
+    }
+    #club_title {
+        display:inline;
+        position:absolute;
+        text-anchor:middle;
+        padding-top:25px;
+        font-family: "Trebuchet MS";
+        font-size: 40px;
+        color:white;
+    }
+
+    #logo {
+        display:inline;
+        padding-right:20px;
+        padding-top: 10px;
+        width:160px;
+    }
+
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 10px 2px;
+    }
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+        position:absolute;
+        margin-left:575px;
+    }
+
+    .fa-envelope {
+        background: black;
+        color: white;
+        position:absolute;
+        margin-left:575px;
+        margin-top:90px;
+    }
+    .fa-youtube {
+        background: #bb0000;
+        color: white;
+        position:absolute;
+        margin-left: 680px;
+    }
+
+    .fa-calendar {
+        background: green;
+        color: white;
+        position:absolute;
+        margin-left: 680px;
+        margin-top:90px;
+    }
+
+    #contact_link {
+        margin-left:870px;
+        position:absolute;
+        font-size:50px;
+        margin-top:-13px;
+    }
+
+</style>
+
 <div id = "welcome_tile">
-    <img src="logo.jpg">
+
+    <a href = ""><img href = "https://localhost:8000" id = "logo" src="logo.jpg"></a>
+
+    <a href= "https://www.facebook.com/groups/196219997114788/about/" id = "facebook_link" class="fa fa-facebook"></a>
+    <a href= "mailto:cornelluniversityttc@gmail.com" id = "gmail_link" class="fa fa-envelope"></a>
+    <a href = "http://www.youtube.com/channel/UCpJCDYiIaB6mV0ZNLGICpAg/feed?filter=2" class = "fa fa-youtube"
+       id = "youtube_link"></a>
+    <a href = "calendar.html" class = "fa fa-calendar"
+       id = "calendar_link"></a>
+    <a href = "" class = "fa fa-address-card"
+       id = "contact_link"></a>
+
 </div>
+
 </html>
 
